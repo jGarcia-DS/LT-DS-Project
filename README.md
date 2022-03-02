@@ -19,6 +19,6 @@ Senorita (Shawn Mendes & Camilla Cabello)
 Wasabi (Little Mix)
 
 Becky:
-My Type - Saweetie
-Hello Kitty - Avril Lavigne
+My Type (Saweetie)
+Hello Kitty (Avril Lavigne)
 
