@@ -3,8 +3,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 
 # API Credentials
-cid = 'ec57adf8e193493fb88daa14a7c29a09'
-secret = 'c731cf768c074e0c9e7270b579b5520e'
+cid = '[YOUR CID]'
+secret = '[YOUR SECRET]'
 client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secret=secret)
 sp = spotipy.Spotify(client_credentials_manager= client_credentials_manager)
 
@@ -41,6 +41,6 @@ def call_playlist(creator, playlist_id):
 
 ID = input('Enter ID ')
 name = input('Enter File Name ')+'.csv'
-playlist = call_playlist('spotify',ID).to_csv('/Users/jaggergarcia/PycharmProjects/SpotifyComp/PlaylistData/'+name)
+playlist = call_playlist('spotify',ID).to_csv('[YOUR FILE DIRECTORY]'+name)
 
 
